@@ -14,13 +14,3 @@ from math import *
 
 #print("Максимальная цифра равна", max_digit)
 #print("Минимальная цифра равна", min_digit)
-
-n = int(input())
-while n > 9:
-    last_digit = n % 10
-    n //= 10
-    n += last_digit
-
-print(n)
-
-

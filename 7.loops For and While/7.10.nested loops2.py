@@ -141,4 +141,3 @@ while n > 9:
     n += last_digit
 
 print(n)
-
