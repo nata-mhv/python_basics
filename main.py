@@ -14,10 +14,3 @@ from math import *
 
 #print("Максимальная цифра равна", max_digit)
 #print("Минимальная цифра равна", min_digit)
-n = int(input())
-s = input()
-for i in s:
-    decryption = ord(i) - n
-    if decryption < 97:
-        decryption += 26
-    print(chr(decryption), end='')
